@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Simon Mule</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/938ad39e22.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <!-- HEADER SECTION OF THE WEB SITE -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!-- <img src="images/logo.png" alt="web-site-logo" class="logo"> -->
+                <p><a href="index.html"><i>Simon</i><span>`M</span></a></p>
+                <ul id="sideMenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+                </ul>
+                <i class="fa-sharp fa-solid fa-bars" onclick="openMenu()"></i>
+            </nav>
+
+            <div class="header-text">
+                <p><i>MERN || XAMP Web Developer</i></p>
+                <h1>Hello!, I'm <span>Simon</span><br> Mule from Zambia...</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- ABOUT SECTION OF THE WEB SITE -->
+    
+    <div id="about">
+        <div class="container">
+
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/simon.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        I am a self-motivated and fast learner developer with skills in HTML, CSS, SCSS, 
+                        JavaScript, Python, PHP, React, express.js, node.js, with experience in developing
+                        websites using the MERN and XAMP web stacks. I have been working as a freelance
+                        developer for over a year and I have planned, designed and developed several websites,
+                        with a vehicle content management web application as one of my biggest project.
+                        <br>
+                        I have skills for both the front-end and back-end and I am competent to contribute
+                        to a web and software development team.
+                    </p>
+
+                    <!-- CLICKABLE TABS ON ABOUT THE USER -->
+                    <tab-titles class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                    </tab-titles>
+
+                    <!-- SKILLS CONTENT FOR CLICKABLE TABS ON ABOUT THE USER -->
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>
+                                <span>Front-End Developer</span><br>
+                                Design and Develop websites and using HTML, CSS, SCSS, JS and React
+                            </li>
+                            <li>
+                                <span>Back-End Developer</span><br>
+                                Capable of using NoSQL, SQL, PHP, express and Node.js to develop backend applications and APIs
+                            </li>
+                            <li>
+                                <span>Full Stack Developer</span><br>
+                                Develope full stack applications using MERN and XAMP stacks following the Model View Controller architecture
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- EXPERIENCE CONTENT FOR CLICKABLE TABS ON ABOUT THE USER -->
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>
+                                <span>FREELANCE WEB DEVELOPER: APRIL. 2022 - PRESENT</span><br>
+                                Developed a vehicle content management web application with HTML,CSS,JS,PHP,
+                                SQL and using the MVC architecture
+                            </li>
+                            <li>
+                                Created a job tracker web app with the MERN web stack and designed & developed
+                                the Scripture Daily Web Application using HTML, CSS and vanilla JS
+                            </li>
+                            <li>
+                                Planned and devised a water rafting business website, temple inn & suites hotel website,
+                                a chamber of commerce website, a salon business website and a react.js blog website frontend
+                            </li>
+                            <li>
+                                <span>ICT TEACHER: JAN. 20221 - MAY. 2021 (TWIKATANE COMBINED SCHOOL)</span><br>
+                                Implemented practical hands on teaching methods using computer based instructing
+                                aids that lead to student higher comprehension levels and helped other teachers
+                                to implement this technique
+                            </li>
+                            <li>
+                                Prepared materials for lessons, assignments and assessments and evaluations,
+                                corrected and graded the performance of over 120 students
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- EDUCATION CONTENT FOR CLICKABLE TABS ON ABOUT THE USER -->
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>
+                                <span>Advanced Technology Bachelors Degree - Brigham Young University-Idaho (Start: 2021) </span><br>
+                                    Web and Database Design and Development Major
+                            </li>
+                            <li>
+                                <span>Web and Computer Programming - Brigham Young University-Idaho (2021 - 2022)</span><br>
+                                    Design visually appealing Websites,
+                                    Convert software requirement into code,
+                                    Write meaning Programs for various tasks,
+                                    Use Python, HTML/CSS & JavaScript,
+                                    Device industry standard dynamic webpages &
+                                    Apply strong design & problem-solving skills
+                            </li>
+                            <li>
+                                <span>Bachelor of ICT with Education - University of Zambia / Zambia University College of Technology (2018 - 2021)</span><br>
+                                    Use HTML/CSS, JS, PHP & SQL,
+                                    Strong communication & interpersonal skills,
+                                    Web front-end Design & Development,
+                                    Effective & adaptive ICT teaching skills,
+                                    Web Back-end Development using PHP & SQL,
+                                    Strong & effective lesson plan preparation skills
+                            </li>
+                        </ul>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SERVICES SECTION OF THE WEB SITE -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title"><span class="heading-border">My Services</span></h1>
+
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Website Front-End Design and Development</h2>
+                    <p>
+                       I design and develop static websites and website front-ends using Figma,
+                       HTML, CSS, SCSS, JavaScript and React.
+                    </p>
+                    <!-- <a href="#">Learn More</a> -->
+                </div>
+
+                <div>
+                    <!-- <i class="fa-sharp fa-solid fa-crop-simple"></i> -->
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Fullstack(Complete) Web App development</h2>
+                    <p>
+                      I develop dynamic websites and web apps using HTML, CSS, SCSS, JavaScript, PHP, Node.js, React, MERN & XAMP stacks, following the Model View Controller architecture.
+                    </p>
+                    <!-- <a href="#">Learn More</a> -->
+                </div>
+
+                <div>
+                    <!-- <i class="fa-thin fa-graduation-cap"></i> -->
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Teach Web Development Basics & General ICT Courses</h2>
+                    <p>
+                        Are you interested in ICT courses and web development, and have the desire to learn and make your own websites.
+                        Then you can get in touch with me and start your web development journey by learning
+                        the basics of HTML, CSS, JAVASCRIPT and PHP.
+                    </p>
+                    <!-- <a href="#">Learn More</a> -->
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- PORTFOLIO SECTION OF THE WEB SITE -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title left-position"> <span class="heading-border">My Work</span></h1>
+
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/temple-inn.png" alt="work-sample-one">
+                    <div class="layer">
+                        <h3>Hotel Website</h3>
+                        <p>
+                            This is one of the proposed design web site for the Temple Inn and 
+                            Suite hotel that provides accommodation to members visiting the 
+                            temples of the church of Jesus Christ of latter day saints and to
+                            everyone wanting to lodge a beautiful places close to adorable temples.
+                            This is a HTML, CSS and Vanilla JS project.
+                        </p>
+                        <a href="https://simycodes.github.io/wdd230/wdd230-finalproject/temples.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/scripture-daily-app.png" alt="work-sample-one">
+                    <div class="layer">
+                        <h3>Scripture Daily App</h3>
+                        <p>
+                            This web application is a random bible scripture generator that users can 
+                            interact with when they need a scripture quote that they can instantly read,
+                            save and later retrieve. This web app is developed with vanilla JS.
+                        </p>
+                        <a href="https://simycodes.github.io/wdd230/chamber/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/job-tracking-site.png" alt="work-sample-one">
+                    <div class="layer">
+                        <h3>Hotel Website</h3>
+                        <p>
+                            This is a MERN Full Stack Web Application. This web app is used to assist
+                            users to keep track of their job finding process. Navigate to the web site
+                            and try out its friendly user interface.
+                        </p>
+                        <a href="https://mern-course-jobify-slaz.onrender.com" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                
+            </div>
+
+            <a href="projects.html" class="btn">See All Projects</a>
+        </div>
+
+    </div>
+
+    <!-- CONTACT SECTION OF THE WEB SITE -->
+    <div id="contact">
+        <div class="container">
+            <h2 class="sub-title">Contact Me</h2>
+            <div class="row">
+                <div class="contact-left">
+                    <p><i class="fa-sharp fa-solid fa-paper-plane"></i>simonviogt@yahoo.com</p>
+                    <p><i class="fa-sharp fa-solid fa-paper-plane"></i>simycodes@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+260 56 836368</p>
+                    <p>View My LinkedInn Profile</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/simon-mule-126058243" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/simon-mule-resume.pdf" download class="btn btn2" id="download-btn" onclick="downloadFile()">Download CV</a>
+                </div>
+
+
+                <div class="contact-right">
+                    <div class="message-holder">
+                        <h3 class="message-title"><i>Hello There!</i></h3>
+
+                        <p>
+                            Thanks for visiting my portfolio website! You can easily get in touch
+                            with me using the provided and email and phone number on the left(top) and I will respond
+                            to you in less than 24 hours! <br>
+                            And remember to download my CV!
+                            Thanks.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER SECTION OF THE WEB SITE -->
+    <div class="copyright">
+        <div class="container">
+            <p>Copyright &copy; Simon Mule. Developed with hard work, patience and persistence! <i class="fa-solid fa-heart"></i>. Thanks For Visiting This Site!</p>
+        </div>
+    </div>
+
+
+    <!-- JAVASCRIPT FUNCTIONALITIES SECTION -->
+    <script>
+        let tabLinks = document.getElementsByClassName('tab-links');
+        let tabContents = document.getElementsByClassName('tab-contents');
+
+        // REMOVE ACTIVE CLASS FROM ALL TABS AND CONTENTS
+        function openTab(tabName) {
+            for(tabLink of tabLinks){
+                tabLink.classList.remove('active-link');
+            }
+             for(tabContent of tabContents){
+                tabContent.classList.remove('active-tab');
+            }
+            // ADD ACTIVE CLASS TO TAB CLICKED ON
+            event.currentTarget.classList.add('active-link');
+             // ADD ACTIVE CLASS ON THE TAB CLICKED ON WHICH WILL ALSO DISPLAY ITS CORRESPONDING
+             // CONTENT
+            document.getElementById(tabName).classList.add('active-tab')
+        }
+
+        // HANDLING THE DOWNLOAD BUTTON BEING CLICKED EFFECT
+        function downloadFile() {
+            // console.log("function working")
+            let downloadButton = document.getElementById('download-btn').textContent = "CV downloaded";
+            // event.currentTarget.classList.add("download");
+            setTimeout(removeDownLoadNotification,5000);
+        }
+
+        function removeDownLoadNotification() {
+            let downloadButton = document.getElementById('download-btn').textContent = "Download CV";
+        }
+        
+    </script>
+
+    <script>
+        let sideMenu = document.getElementById("sideMenu");
+
+        function openMenu() {
+            sideMenu.style.right = "0";
+        }
+
+        function closeMenu() {
+            sideMenu.style.right = "-200px";
+        }
+
+    </script>
+
+</body>
+</html>
